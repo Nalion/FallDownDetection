@@ -1,0 +1,6 @@
+set(the_description "Video Analysis")
+if(EVSS_OPENCV_REDUCE)
+ocv_module_disable(video)
+else()
+ocv_define_module(video opencv_imgproc)  
+endif()
