@@ -1,4 +1,0 @@
-person
-down
-10+
-dog

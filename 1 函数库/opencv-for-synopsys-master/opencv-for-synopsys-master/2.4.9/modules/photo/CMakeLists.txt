@@ -1,6 +1,0 @@
-set(the_description "Computational Photography")
-if(EVSS_OPENCV_REDUCE)
-ocv_module_disable(photo)
-else()
-ocv_define_module(photo opencv_imgproc)  
-endif()
