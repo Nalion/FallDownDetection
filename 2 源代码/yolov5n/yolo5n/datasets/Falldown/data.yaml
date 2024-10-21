@@ -1,0 +1,15 @@
+names:
+- 10-
+- dog
+- down
+- person
+nc: 4
+roboflow:
+  license: Private
+  project: yolov5-obvge
+  url: https://app.roboflow.com/yolo-7gnh8/yolov5-obvge/1
+  version: 1
+  workspace: yolo-7gnh8
+test: ../test/images
+train: Yolov5-1/train/images
+val: Yolov5-1/valid/images
